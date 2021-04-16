@@ -52,8 +52,8 @@ The child ran back to his father and said, "You lied to me!" His father replied,
                 </div>
                 </div>
         </div>
-        
     </section>
+    <div class="footer"></div>
     
   
 </body>
