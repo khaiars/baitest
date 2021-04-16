@@ -1,0 +1,106 @@
+@import url('https://fonts.https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap.com/css2?family=Ballet&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ballet', cursive;
+}
+
+p {
+    text-align: center;
+    text-decoration: dashed;
+    color: blue;
+}
+
+
+/* .container:before,
+.container:after {
+    content: "";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+} */
+
+.container {
+    /*Kích hoạt flexbox*/
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    width: 200px;
+}
+
+.item2 {
+    flex-grow: 1;
+}
+
+.item3 {
+    text-align: right;
+}
+
+section {
+    padding: 0;
+}
+
+.banner {
+    background-color: #58FA58;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-height: 300px;
+}
+
+.banner h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 3em;
+}
+
+.banner h2 {
+    color: #fff;
+    font-size: 1em;
+}
+
+.contentBx {
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+.contentBx button {
+    text-align: center;
+    margin: 0px 100px 0px 100px;
+    padding: auto;
+}
+
+.content p {
+    text-align: left;
+}
+
+hr {
+    width: 70%;
+    margin: auto;
+    size: 5px;
+}
+
+.btn {
+    border-radius: 0 !important;
+}
+
+#outer {
+    width: 100%;
+    text-align: center;
+}
+
+.inner {
+    display: inline-block;
+}
