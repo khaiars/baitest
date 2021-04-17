@@ -8,10 +8,9 @@
     <link rel="stylesheet" href="./css/mystyle.css" >
     <link rel=" stylesheet " href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
     <sc src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></sc>
-<<<<<<< HEAD
-=======
 
->>>>>>> ea4910da64b44fb7538142a4ecadcdd8e09ae199
+
+
 </head>
 <body>
     <div class="container">
