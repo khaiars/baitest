@@ -48,7 +48,7 @@ p {
 }
 
 section {
-    padding: 0;
+    padding: 100px 0 100px 0;
 }
 
 .banner {
@@ -72,7 +72,7 @@ section {
 
 .contentBx {
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 800px;
     width: 100%;
 }
 
@@ -86,9 +86,14 @@ section {
     text-align: left;
 }
 
-hr {
+hr .new1 {
     width: 70%;
     margin: auto;
+    size: 5px;
+}
+
+hr.new2 {
+    width: 100%;
     size: 5px;
 }
 
@@ -103,4 +108,18 @@ hr {
 
 .inner {
     display: inline-block;
+}
+
+.footer {
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+}
+
+.intro .p {
+    text-align: justify;
+}
+
+.copy {
+    text-align: center;
 }
