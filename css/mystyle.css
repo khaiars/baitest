@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+@import url('https://fonts.https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap.com/css2?family=Ballet&display=swap');
+>>>>>>> ea4910da64b44fb7538142a4ecadcdd8e09ae199
 * {
     margin: 0px;
     padding: 0px;
@@ -17,6 +21,10 @@ p {
     content: "";
     display: table;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> ea4910da64b44fb7538142a4ecadcdd8e09ae199
 .container:after {
     clear: both;
 } */
