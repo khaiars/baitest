@@ -8,9 +8,16 @@
     <link rel="stylesheet" href="./css/mystyle.css" >
     <link rel=" stylesheet " href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
     <sc src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></sc>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
-
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#div1").load("tin.php");
+            });
+        });
+    </script>
 </head>
 <body>
     <div class="container">
@@ -36,10 +43,10 @@
     </section>
     <section class='main'>
         <div class='content'>
-            <div class="contentBx ">
-                <p>A child asked his father, "How were people born?" So his father said, "Adam and Eve made babies, then their babies became adults and made babies, and so on."
-The child then went to his mother, asked her the same question and she told him, "We were monkeys then we evolved to become like we are now."
-The child ran back to his father and said, "You lied to me!" His father replied, "No, your mom was talking about her side of the family."
+            <div class="contentBx" >
+                <p  id="div1" ><?php 
+                require"tin.php"
+                ?>
                 </p>
                 <hr class="new1">
             </div>
@@ -64,6 +71,7 @@ The child ran back to his father and said, "You lied to me!" His father replied,
 
     
     
+       
   
 </body>
 
